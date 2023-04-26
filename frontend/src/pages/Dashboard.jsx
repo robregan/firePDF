@@ -20,9 +20,8 @@ function Dashboard() {
   const selectedPdf = useSelector((state) => state.pdf.selectedPdf)
 
   const pdfFiles = [
-    { name: 'First Book', path: '/pdfs/pms-311-13.pdf' },
-    //  { name: 'Sample PDF 2', path: '/path/to/sample2.pdf' },
-    // Add more PDF files here
+    { name: 'pms-311-13.pdf', path: '/pdfs/pms-311-13.pdf' },
+    { name: 'pms-311-45.pdf', path: '/pdfs/pms-311-45.pdf' },
   ]
 
   const handlePdfClick = (pdfPath) => {
